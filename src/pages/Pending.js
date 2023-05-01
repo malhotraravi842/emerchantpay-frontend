@@ -4,7 +4,7 @@ const Pending = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       window.location =
-        "http://localhost:4000/wallet/deposits/?txnId=1235&txnStatus=success";
+        "https://curious-caramel-22e442.netlify.app/success.html";
     }, [5000]);
 
     return () => {
