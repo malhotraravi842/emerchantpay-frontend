@@ -3,7 +3,8 @@ import { useEffect } from "react";
 const Pending = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
-      window.location = "https://www.lcx.com/";
+      window.location =
+        "http://localhost:4000/wallet/deposits/?txnId=1235&txnStatus=success";
     }, [5000]);
 
     return () => {
